@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'semana8';
+
+
+  receiveChildOutput(value: any) {
+    console.log(value);
+  }
+
 }
+
+
